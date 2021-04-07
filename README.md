@@ -8,7 +8,7 @@ The demo application loads the apache lisence file in and displays it in a win f
 
 
 ### Tricky spots
-I had trouble trying to  with in the visual studio IDE fir the win forms contol container  to recongnise the availablity of a WPF control, to resolve this the code was added to the form_load event of the winforms application to work around this limitation. 
+I had trouble with in the visual studio IDE for the win forms contol container to recongnise the availablity of a WPF control.(Visual studio did not see any WPF controls within the solution nor projects and because of this it was not possible to bind to them) To resolve this issue the below code was added to the form_load event of the main form.
 
 
     private void FormMarkDownViewer_Load(object sender, EventArgs e)
