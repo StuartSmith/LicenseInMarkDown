@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.168
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EulaLisence", "..\EulaLisence\EulaLisence.csproj", "{D1197F5D-6FD1-4550-B0BD-5732817CF59A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LicenseMarkDownViewer", "..\LicenseMarkDownViewer\LicenseMarkDownViewer.csproj", "{E2B9141B-1AE8-4C2F-9DC1-3719F6DFD29B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D1197F5D-6FD1-4550-B0BD-5732817CF59A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D1197F5D-6FD1-4550-B0BD-5732817CF59A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D1197F5D-6FD1-4550-B0BD-5732817CF59A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D1197F5D-6FD1-4550-B0BD-5732817CF59A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E2B9141B-1AE8-4C2F-9DC1-3719F6DFD29B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E2B9141B-1AE8-4C2F-9DC1-3719F6DFD29B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E2B9141B-1AE8-4C2F-9DC1-3719F6DFD29B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E2B9141B-1AE8-4C2F-9DC1-3719F6DFD29B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DAFEFB99-A90B-48E9-ADDD-256E8EF144B2}
+	EndGlobalSection
+EndGlobal
