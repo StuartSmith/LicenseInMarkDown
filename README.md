@@ -4,12 +4,14 @@ This repository is to demonstrate how to integrate a markdown Eula or license fi
 ## Demo Application
 The demo application loads the apache lisence file in and displays it in a win forms window.
 
+
 ### Tricky spots
-I had trouble trying to get the win forms contol container working through visual studio IDE to recongnise the availablity of a WPF control, to resolve this code was added to the form load of the winforms application.
+I had trouble trying to  with in the visual studio IDE fir the win forms contol container  to recongnise the availablity of a WPF control, to resolve this the code was added to the form_load event of the winforms application to work around this limitation. 
 
 
     private void FormMarkDownViewer_Load(object sender, EventArgs e)
         {
+            
             _markDownViewer = new MarkDownViewer();
             _markDownViewer.InitializeComponent();
 
