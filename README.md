@@ -4,7 +4,7 @@ This repository is to demonstrate how to integrate a markdown Eula or license fi
 ## Demo Application
 The demo application loads the apache lisence file in and displays it in a win forms window.
 
-<img style="float:left;" src="https://raw.githubusercontent.com/StuartSmith/LicenseInMarkDown/blob/master/ScreenShots/LicenseInMarkDown.jpg">
+<img style="float:left;" src="https://raw.githubusercontent.com/StuartSmith/LicenseInMarkDown/master/ScreenShots/LicenseInMarkDown.jpg">
 
 
 ### Tricky spots
